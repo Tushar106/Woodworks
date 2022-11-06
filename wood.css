@@ -1,0 +1,221 @@
+#title{
+    background-color: burlywood;
+    color: white;
+}
+#title ul{
+    background-color: burlywood;
+}
+#title ul li{
+    margin: 0 15px;
+    font-size: 1.2rem;
+}
+#title .container-fluid{
+    padding: 3.5% 1% 0;
+}
+.company-name{
+    font-size :2.5rem ;
+    font-family: 'Alkalami', serif;
+    margin:0 0 0 6%;
+}
+.mickey-image{
+    position: relative;
+    width: 20%;
+}
+
+
+
+
+
+
+
+.decoration{
+   padding:  5% 10% 2%
+}
+.chair-img{
+    width: 25%;
+    position: absolute;
+    rotate: 22deg;
+}
+.big-heading{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+.button{
+    margin: 10% 2%;
+
+}
+
+#About{
+    background-color: white;
+    position: relative;
+    padding: 4rem;
+    text-align: center;
+    margin: 0 0 2rem;
+}
+
+.about-head{
+    font-family: 'Abril Fatface', cursive;
+    text-align: start;
+    margin-bottom: 3rem;
+    font-size: 4rem;
+}
+.profile-img{
+    border: 2px solid black;
+    width: 65%;
+    border-radius: 100%;
+}
+.about-detail{
+    margin: 0 25px;
+    height: 100%;
+    line-height: 2;
+    padding: 1rem 3rem;
+    border: 2px solid black;
+}
+.about-detail h2{
+    margin: 1rem;
+    font-size: 3rem;
+    font-family: 'Alkalami', serif;
+    color: rgb(12, 12, 12);
+}
+.about-detail p{
+    font-size:1.2rem ;
+    font-weight: 300;
+    font-family: 'Pacifico', cursive;
+    color: rgb(104 102 102);
+}
+.profile-block{
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+#Slide{
+    /* position: relative; */
+    padding:7% 7% 0;;
+   text-align: center;
+    background-color: burlywood;
+}
+.slide-show {
+    text-align: center;
+    padding: 3rem;
+    height: 40%;
+    padding-bottom: 5rem;
+}
+.carousel-item{
+    height: 40%;
+}
+
+.slide-img{
+    height: 27rem;
+    width: 68%;
+    border: 1px solid;
+}
+#features{
+    padding: 10% 15%;
+
+}
+.features-box{
+    text-align: center;
+    padding: 0 3rem;
+}
+.icon{
+   color: burlywood;
+    margin: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#products {
+    background-color: burlywood;
+    padding: 4rem 4rem 8rem;
+    text-align: center;
+}
+.pro-head{
+    font-size: 5rem;
+    text-align: start;
+    font-family: 'Lobster', cursive;
+}
+#products .row{
+    margin: 3rem 0 0 0;
+}
+.products-items{
+    margin: 1rem;
+}
+.card-images{
+    height: 18rem;
+}
+
+#footer{
+    padding: 5% 25%;
+    text-align: center;
+    background-color: rgb(50, 49, 49);
+    width: 100%;
+    /* height: 25vh; */
+    color: rgb(87, 87, 87);
+}
+.footer-container{
+    margin: 8% 0;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:500px){
+    .chair-img{
+        width: 72%;
+        position: static;
+    }
+    .slide-img{
+        width: 68%;
+        height: auto;
+    }
+    .card-images{
+        height: 13rem;
+    }
+    .profile-img{
+        padding: 2rem;
+        width: 100%;
+    }
+    .about-detail{
+        line-height: 1;
+        padding: 1rem 1rem;
+    }
+    .about-detail h2{
+        font-size: 2rem;
+    }
+    .mickey-image{
+        display: none;
+    }
+    
+}
+   
